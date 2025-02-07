@@ -37,7 +37,14 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 </div>
 
 
+**🏗️ Training a Model based on a PointNet Architecture** for object detection and segmentation.
 
+### **Prediction vs Processed Prediction**
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="95%">
+    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="95%">
+</div>
 **☁️ processing point cloud** processing predction to enahnce object accuracy.
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
