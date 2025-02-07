@@ -157,4 +157,6 @@ python scripts/visualise_pcd.py
 ---
 
 ## Author ✍️
-Developed by **Hamze Hammami**. Contributions and improvements are welcome!
+Developed by **@Hamze-Hammami**. Contributions and improvements are welcome!
+
+
