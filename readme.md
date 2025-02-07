@@ -32,14 +32,6 @@ Isaac Point Cloud is an open-source project that provides a structured approach 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
 
-![Prediction](https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b)
-
-### **Processed Prediction:**  
-![Processed Prediction](https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7)
-
-
-
-
 ---
 
 ## Features 🏆
