@@ -9,6 +9,16 @@ Isaac Point Cloud is an open-source project that provides a structured approach 
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
+- **Scene:**![image](https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6)
+- **PCD DATA (from ISSAC-sim):**![image](https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833)
+- **Labeled Data:** ![image](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
+- **Prediction:**![image](https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b)
+- **Processed Prediction:**![image](https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7)
+- **predict (Green) Vs Lable (Blue):**![image](https://github.com/user-attachments/assets/ad8badab-2e8c-43ba-a865-d7113fc512b4)
+
+
+
+
 ---
 
 ## Features 🏆
@@ -25,10 +35,7 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 ### 2 class handeling (curruntly only instances / 1 class)
 
-### Example Visualizations 📸
-- **Scene:** issac sim scene.
-- **Labeled Data:** PCD data vislised.
-- **Predicted Bounding Boxes:** .
+
 
 
 ## Data Formats
