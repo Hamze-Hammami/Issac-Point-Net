@@ -1,8 +1,8 @@
 # Isaac Point Net 🚀
 
 ## Overview  
-Isaac Point Net is an open-source project that provides a structured approach to:
-- **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
+Isaac Point Net is an open-source project that provides a structured approach to 3D pixel and cuboid training machine learning model with pytorch and issac sim:
+
 
 ### **Scene & PCD Data (through ISSAC)**
 
@@ -11,16 +11,18 @@ Isaac Point Net is an open-source project that provides a structured approach to
     <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="45%">
 </div>
 
-- **🏷️ Auto-labeling objects** lable instances by adding themin groups.
+- **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
+
   
  ### **Labeled Data:**  
 ![Labeled Data](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
 
-- **🤖 Training a PointNet-based model** for object detection and segmentation.
+- **🏷️ Auto-labeling objects** lable instances by adding themin groups.
   
 ### **Model Architecture** 
 <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" />
-- **☁️ processing point cloud** processing predction to enahnce object accuracy.
+
+- **🤖 Training a PointNet-based model** for object detection and segmentation.
 
 ### **Prediction vs Processed Prediction**
 
@@ -29,6 +31,7 @@ Isaac Point Net is an open-source project that provides a structured approach to
     <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="45%">
 </div>
 
+- **☁️ processing point cloud** processing predction to enahnce object accuracy.
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
@@ -37,17 +40,17 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 ## Features 🏆
 
-#1 Physics LiDAR-Based Point Cloud Capture ( through ISSAC ) 
+1- Physics LiDAR-Based Point Cloud Capture ( through ISSAC ) 
 
-# 2 Auto-Labeling of Simulation Data  
+2- Auto-Labeling of Simulation Data  
 
-# 3 Training a PointNet-Based Model  
+3- Training a PointNet-Based Model  
 
 ## Prposed Goals 🔍
 
-# 1 live data prediction  
+1- live data prediction  
 
-# 2 class handeling (curruntly only instances / 1 class)
+2- class handeling (curruntly only instances / 1 class)
 
 
 
