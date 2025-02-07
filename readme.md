@@ -155,6 +155,24 @@ python scripts/visualise_pcd.py
 ```
 
 ---
+## 📖 Citation
+
+community Contributions and improvements are welcome!
+
+however, if you use outside of the repo towards your research, please cite it as:
+
+```bibtex
+@misc{hamzehammami2025isaacpointnet,
+  author = {Hamze Hammami},
+  title = {Isaac Point Net},
+  year = {2025},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/Hamze-Hammami/Issac-Point-Net}},
+  note = {Accessed: 2025-02-07}
+}
+
+```
 
 ## Author ✍️
 Developed by **@Hamze-Hammami**. Contributions and improvements are welcome!
