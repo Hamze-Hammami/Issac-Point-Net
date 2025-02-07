@@ -7,20 +7,21 @@ Isaac Point Net is an open-source project that provides a structured approach to
 ### **Scene & PCD Data (through ISSAC)**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="50%">
-    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="50%">
+    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="45%">
+    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="45%">
 </div>
 
 - **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
 
   
- ### **Labeled Data:**  
+ ### **Labeled Data:**
 ![Labeled Data](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
-
 - **🏷️ Auto-labeling objects** lable instances by adding themin groups.
   
 ### **Model Architecture** 
-<img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="60%">
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="60%">
+</div>
 
 - **🏗️ Training a Model based ona PointNet Architecture** for object detection and segmentation.
 
