@@ -174,16 +174,40 @@ however, if you use outside of the repo towards your research, please cite it as
 
 ```
 
-## Author ✍️
-Developed by me **Hamze Hammami**.
+## Author & Contact Links ✍️
 
-Feel free to checkout my other work: 
-Huggging Face: https://huggingface.co/Hamze-Hammami 
-Github: https://github.com/Hamze-Hammami 
-ORCID: https://orcid.org/0009-0004-5754-5842 
-Linkedin: https://www.linkedin.com/in/hamze-hammami-1a8800229/ 
+Developed by **Hamze Hammami**
 
-## Contributiors 
+<div align="left">
+    <a href="https://huggingface.co/Hamze-Hammami">
+        <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="25" height="25" style="vertical-align: middle;"> 
+        Hugging Face
+    </a>
+    <br>
+    <a href="https://orcid.org/0009-0004-5754-5842">
+        <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_32x32.png" alt="ORCID" width="25" height="25" style="vertical-align: middle;"> 
+        ORCID
+    </a>
+    <br>
+    <a href="https://www.linkedin.com/in/hamze-hammami-1a8800229/">
+        <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" width="25" height="25" style="vertical-align: middle;"> 
+        LinkedIn
+    </a>
+</div>
 
-any Contributiors will be added here !!! 
+## Contributors 👥
+
+<div align="center">
+    <table>
+        <tr>
+            <td align="center">
+                <p>Be the first contributor!</p>
+            </td>
+        </tr>
+    </table>
+</div>
+
+---
+
+> 🌟 Want to contribute? Open a pull request and your name will be added here!
 
