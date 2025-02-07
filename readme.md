@@ -3,18 +3,39 @@
 ## Overview  
 Isaac Point Cloud is an open-source project that provides a structured approach to:
 - **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
+
+### **Scene & PCD Data**
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="45%">
+    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="45%">
+</div>
+
 - **🏷️ Auto-labeling objects** lable instances by adding themin groups.
+  
+ ### **Labeled Data:**  
+![Labeled Data](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
+
 - **🤖 Training a PointNet-based model** for object detection and segmentation.
-- **🔍 Visualizing** the resulting point clouds and bounding boxes.
+###**model ARchicture** 
+<img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" />
+- **☁️ processing point cloud** processing predction to enahnce object accuracy.
+
+### **Prediction vs Processed Prediction**
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="45%">
+    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="45%">
+</div>
+
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
-- **Scene:**![image](https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6)
-- **PCD DATA (from ISSAC-sim):**![image](https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833)
-- **Labeled Data:** ![image](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
-- **Prediction:**![image](https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b)
-- **Processed Prediction:**![image](https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7)
-- **predict (Green) Vs Lable (Blue):**![image](https://github.com/user-attachments/assets/ad8badab-2e8c-43ba-a865-d7113fc512b4)
+
+![Prediction](https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b)
+
+### **Processed Prediction:**  
+![Processed Prediction](https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7)
 
 
 
