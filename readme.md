@@ -32,9 +32,22 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 **🏷️ Auto-labeling objects** lable instances by adding them in groups on issac. 
   
 ### **Model Architecture** 
-<div style="display: flex; justify-content: center; gap: 20px;">
-    <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="95%">
-</div>
+# PointNet Model Architecture
+
+| Layer     | Type        |   Input Channels |   Output Channels | Kernel Size   | Activation        |
+|:----------|:------------|-----------------:|------------------:|:--------------|:------------------|
+| conv1     | Conv1D      |                3 |                64 | 1             | ReLU              |
+| bn1       | BatchNorm1D |               64 |                64 | -             | -                 |
+| conv2     | Conv1D      |               64 |               128 | 1             | ReLU              |
+| bn2       | BatchNorm1D |              128 |               128 | -             | -                 |
+| conv3     | Conv1D      |              128 |               256 | 1             | ReLU              |
+| bn3       | BatchNorm1D |              256 |               256 | -             | -                 |
+| conv4     | Conv1D      |              256 |               512 | 1             | ReLU              |
+| bn4       | BatchNorm1D |              512 |               512 | -             | -                 |
+| conv5     | Conv1D      |              512 |              1024 | 1             | ReLU              |
+| bn5       | BatchNorm1D |             1024 |              1024 | -             | -                 |
+| conv_obj  | Conv1D      |             1024 |                 1 | 1             | Sigmoid           |
+| conv_bbox | Conv1D      |             1024 |                 6 | 1             | None (Raw Output) |
 
 
 **🏗️ Training a Model based on a PointNet Architecture** for object detection and segmentation.
@@ -46,6 +59,8 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
     <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="95%">
 </div>
 **☁️ processing point cloud** processing predction to enahnce object accuracy.
+
+---
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
