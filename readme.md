@@ -199,17 +199,6 @@ Check out my other Work :D
 
 ## Contributors 👥
 
-<div align="center">
-    <table>
-        <tr>
-            <td align="center">
-                <p>Be the first contributor!</p>
-            </td>
-        </tr>
-    </table>
-</div>
-
----
 
 > 🌟 Want to contribute? Open a pull request and your name will be added here!
 
