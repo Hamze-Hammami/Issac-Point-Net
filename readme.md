@@ -33,23 +33,7 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
   
 ### **Model Architecture** 
 # PointNet Model Architecture
-
-| Layer     | Type        |   Input Channels |   Output Channels | Kernel Size   | Activation        |
-|:----------|:------------|-----------------:|------------------:|:--------------|:------------------|
-| conv1     | Conv1D      |                3 |                64 | 1             | ReLU              |
-| bn1       | BatchNorm1D |               64 |                64 | -             | -                 |
-| conv2     | Conv1D      |               64 |               128 | 1             | ReLU              |
-| bn2       | BatchNorm1D |              128 |               128 | -             | -                 |
-| conv3     | Conv1D      |              128 |               256 | 1             | ReLU              |
-| bn3       | BatchNorm1D |              256 |               256 | -             | -                 |
-| conv4     | Conv1D      |              256 |               512 | 1             | ReLU              |
-| bn4       | BatchNorm1D |              512 |               512 | -             | -                 |
-| conv5     | Conv1D      |              512 |              1024 | 1             | ReLU              |
-| bn5       | BatchNorm1D |             1024 |              1024 | -             | -                 |
-| conv_obj  | Conv1D      |             1024 |                 1 | 1             | Sigmoid           |
-| conv_bbox | Conv1D      |             1024 |                 6 | 1             | None (Raw Output) |
-
-
+![Drawing5 (1)](https://github.com/user-attachments/assets/50ff66ce-a561-48ad-82d5-1e9b289c02f5)
 **🏗️ Training a Model based on a PointNet Architecture** for object detection and segmentation.
 
 ### **Prediction vs Processed Prediction**
