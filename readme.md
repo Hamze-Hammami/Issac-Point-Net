@@ -176,8 +176,8 @@ however, if you use outside of the repo towards your research, please cite it as
 
 ## Author & Contact Links ✍️
 
-Developed by **Hamze Hammami**
-
+Developed by me **Hamze Hammami**
+Check out my other Work :D 
 <div align="left">
     <a href="https://huggingface.co/Hamze-Hammami">
         <img src="https://huggingface.co/front/assets/huggingface_logo-noborder.svg" alt="Hugging Face" width="25" height="25" style="vertical-align: middle;"> 
