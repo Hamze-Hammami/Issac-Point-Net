@@ -15,12 +15,15 @@
 #|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 
+# IMPORTANT: make sure to change the file names in  line 26
+
 import open3d as o3d
 import numpy as np
 import os
 
 # Path to the labeled point cloud file
-file_path = 'labeled_initial_scene.pcd'
+# change file name  
+file_path = '<file>.pcd' 
 
 # Function to load a PCD file with instance labels
 def load_labeled_pcd(file_path):

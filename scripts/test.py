@@ -14,6 +14,8 @@
 #|                                                        |                                                                                                             |
 #|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+# IMPORTANT: make sure to change the file names in  line 207-209
+
 import open3d as o3d
 import numpy as np
 import torch
@@ -202,8 +204,8 @@ def create_bboxes(boxes, color):
 
 
 if __name__ == "__main__":
-    test_pcd_file = "labeled_initial_scene.pcd"
-    model_path = "pointnet_detector_200.pth"
-    output_road_mask_file = "road_mask.pcd"
+    test_pcd_file = "<PCD_file>.pcd" #change file name
+    model_path = "<model>.pth" #change file name
+    output_road_mask_file = "<output>.pcd" #change file name
     floor_z_threshold = -1.0  
     test_pointnet_detector(test_pcd_file, model_path, output_road_mask_file, floor_z_threshold=floor_z_threshold)

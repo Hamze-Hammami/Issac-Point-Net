@@ -14,6 +14,8 @@
 #|                                                        |- By: Hamze Hammami                                                                                          |
 #|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
+# IMPORTANT: make sure to change the file names in  line 35
+
 import omni
 import asyncio
 import os
@@ -30,7 +32,7 @@ lidarPath = "/Group/CAR/Lidar"
 ads_cad_path = "/Group/CAR/FS_AI_ADS_DV_CAD"
 cube_path = "/Cube"
 
-base_file_path = 'C:/Users/hamze/OneDrive/Desktop/PointClouds'
+base_file_path = '<dataset-dir-path>' #change directory name 
 if not os.path.exists(base_file_path):
     os.makedirs(base_file_path)
 

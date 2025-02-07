@@ -330,7 +330,7 @@ def visualize_detection_results(points, boxes):
 
 ### Main Function ###
 
-if __name__ == "__main__":
+if __name__ == "__main__": # for a more robust implmentaion make a fucntion to read all files from a specfied dir 
     pcd_file_paths = [
         "PCD_Train_Data\labeled_initial_scene1.pcd",
         "PCD_Train_Data\labeled_initial_scene2.pcd",
@@ -338,7 +338,6 @@ if __name__ == "__main__":
         "PCD_Train_Data\labeled_initial_scene4.pcd",
         "PCD_Train_Data\labeled_initial_scene5.pcd",
     ]
-    
     # Train the model
     train_pointnet_detector(pcd_file_paths, epochs=500, batch_size=1, lr=0.0001)
     
