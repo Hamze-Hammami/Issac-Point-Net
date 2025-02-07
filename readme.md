@@ -175,6 +175,15 @@ however, if you use outside of the repo towards your research, please cite it as
 ```
 
 ## Author ✍️
-Developed by **@Hamze-Hammami**. Contributions and improvements are welcome!
+Developed by me **Hamze Hammami**.
 
+Feel free to checkout my other work: 
+Huggging Face: https://huggingface.co/Hamze-Hammami 
+Github: https://github.com/Hamze-Hammami 
+ORCID: https://orcid.org/0009-0004-5754-5842 
+Linkedin: https://www.linkedin.com/in/hamze-hammami-1a8800229/ 
+
+## Contributiors 
+
+any Contributiors will be added here !!! 
 
