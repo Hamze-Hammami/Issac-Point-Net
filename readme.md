@@ -18,7 +18,7 @@ Isaac Point Net is an open-source project that provides a structured approach to
 
 - **🤖 Training a PointNet-based model** for object detection and segmentation.
   
-### **model ARchicture** 
+### **Model Architecture** 
 <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" />
 - **☁️ processing point cloud** processing predction to enahnce object accuracy.
 
