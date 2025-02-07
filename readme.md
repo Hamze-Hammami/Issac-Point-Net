@@ -96,7 +96,8 @@ import torch
 from train import PointNetDetector  # Ensure your PointNetDetector is defined as in this repo
 
 # Download the pretrained model from Hugging Face Hub
-model_path = hf_hub_download(repo_id="Hamze-Hammami/ISSAC-PointNet", filename="pointnet_detector.pth")
+model_path = hf_hub_download(repo_id="Hamze-Hammami/ISSAC-PointNet", filename="<Model_name>.pth")
+#make sure to add name of the file from hugging face 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # Initialize and load the model
