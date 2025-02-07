@@ -1,10 +1,17 @@
 # Isaac Point Net 🚀
 
 ## Overview  
-Isaac Point Net is an open-source project that provides a structured approach to 3D pixel calssfication and cuboid detection, machine learning with pytorch and simulation on issac sim:
+Isaac Point Net is an open-source project that provides a structured approach to 3D pointcloud calssfication and cuboid detection, by capturing data on simulation theough an automated labeling process, with pytorch and on issac sim:
 
 ## 🔎 why on sim ?
 The approach aims to shed light on affordable prototyping. 3D LiDARs are extremely expensive, but with this approach, you can create a LiDAR object detection model without even purchasing one. 
+
+## 🚧 Project Limits
+1.	While the LabelImg process is much easier, it only works on static scenes.
+2.	The labeling task takes more time when more instances are present.
+3.	No class implementation at the moment, only instances.
+
+## ⚙️ Features
 
 ### **Scene & PCD Data (through ISSAC)**
 
@@ -13,19 +20,19 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
     <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="54%">
 </div>
 
-- **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
+**📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
 
   
  ### **Labeled Data:**
 ![Labeled Data](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
-- **🏷️ Auto-labeling objects** lable instances by adding themin groups.
+**🏷️ Auto-labeling objects** lable instances by adding them in groups on issac. 
   
 ### **Model Architecture** 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="60%">
 </div>
 
-- **🏗️ Training a Model based ona PointNet Architecture** for object detection and segmentation.
+**🏗️ Training a Model based ona PointNet Architecture** for object detection and segmentation.
 
 ### **Prediction vs Processed Prediction**
 
@@ -34,7 +41,7 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
     <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="58%">
 </div>
 
-- **☁️ processing point cloud** processing predction to enahnce object accuracy.
+**☁️ processing point cloud** processing predction to enahnce object accuracy.
 
 This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
 
