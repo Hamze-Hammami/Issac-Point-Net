@@ -20,8 +20,8 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 ### **Scene & PCD Data (through ISSAC)**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="80%">
-    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="80%">
+    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="95%">
+    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="95%">
 </div>
 
 **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
@@ -33,7 +33,7 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
   
 ### **Model Architecture** 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="60%">
+    <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="95%">
 </div>
 
 **🏗️ Training a Model based on a PointNet Architecture** for object detection and segmentation.
@@ -41,8 +41,8 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 ### **Prediction vs Processed Prediction**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="80%">
-    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="80%">
+    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="95%">
+    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="95%">
 </div>
 
 **☁️ processing point cloud** processing predction to enahnce object accuracy.
