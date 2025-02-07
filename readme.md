@@ -116,7 +116,7 @@ Source: [Hugging Face Hub Documentation](https://huggingface.co/docs/hub)
 ## Training, Testing, and Visualization Scripts
 
 ### 🏋️ Training the PointNet Model
-The training script can be used to fine-tune a PointNet-based model on labeled point cloud data. The current setup has been tested on a limited dataset of five PCD files.
+The training script can be used to Train a PointNet-based model on labeled point cloud data. The current setup has been tested on a limited dataset of five PCD files.
 
 Run the training script with:
 ```bash
