@@ -107,7 +107,6 @@ model = PointNetDetector().to(device)
 model.load_state_dict(torch.load(model_path, map_location=device))
 model.eval()
 
-print("Pretrained PointNetDetector model loaded successfully!")
 ```
 
 Source: [Hugging Face Hub Documentation](https://huggingface.co/docs/hub)
