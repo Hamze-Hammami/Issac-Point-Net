@@ -48,16 +48,7 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 ---
 
-## Features 🏆
-
-1- Physics LiDAR-Based Point Cloud Capture ( through ISSAC ) 
-
-2- Auto-Labeling of Simulation Data  
-
-3- Training a PointNet-Based Model  
-
-
-## Data Formats
+## Data Format
 
 ### PCD v0.7 Format  
 Point cloud files are saved using the PCD v0.7 format. An example header is as follows:
