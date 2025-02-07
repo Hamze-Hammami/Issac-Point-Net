@@ -1,7 +1,7 @@
 # Isaac Point Net 🚀
 
 ## Overview  
-Isaac Point Net is an open-source project that provides a structured approach to 3D pixel and cuboid training machine learning model with pytorch and issac sim:
+Isaac Point Net is an open-source project that provides a structured approach to 3D pixel calssfication and cuboid detection, machine learning with pytorch and simulation on issac sim:
 
 
 ### **Scene & PCD Data (through ISSAC)**
