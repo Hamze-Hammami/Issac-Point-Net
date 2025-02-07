@@ -3,6 +3,8 @@
 ## Overview  
 Isaac Point Net is an open-source project that provides a structured approach to 3D pixel calssfication and cuboid detection, machine learning with pytorch and simulation on issac sim:
 
+## 🔎 why on sim ?
+The approach aims to shed light on affordable prototyping. 3D LiDARs are extremely expensive, but with this approach, you can create a LiDAR object detection model without even purchasing one. 
 
 ### **Scene & PCD Data (through ISSAC)**
 
