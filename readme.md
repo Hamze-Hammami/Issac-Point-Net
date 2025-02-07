@@ -1,7 +1,7 @@
 # Isaac Point Net 🚀
 
 ## Overview  
-Isaac Point Cloud is an open-source project that provides a structured approach to:
+Isaac Point Net is an open-source project that provides a structured approach to:
 - **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
 
 ### **Scene & PCD Data**
