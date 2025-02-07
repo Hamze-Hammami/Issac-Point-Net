@@ -1,4 +1,4 @@
-# Isaac Point Cloud 🚀
+# Isaac Point Net 🚀
 
 ## Overview  
 Isaac Point Cloud is an open-source project that provides a structured approach to:
