@@ -20,7 +20,7 @@ Isaac Point Net is an open-source project that provides a structured approach to
 - **🏷️ Auto-labeling objects** lable instances by adding themin groups.
   
 ### **Model Architecture** 
-<img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="80%">
+<img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" alt="PCD Data" width="60%">
 
 - **🏗️ Training a Model based ona PointNet Architecture** for object detection and segmentation.
 
