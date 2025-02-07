@@ -4,7 +4,7 @@
 Isaac Point Net is an open-source project that provides a structured approach to:
 - **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
 
-### **Scene & PCD Data**
+### **Scene & PCD Data (through ISSAC)**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
     <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="45%">
@@ -36,17 +36,17 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 ## Features 🏆
 
-### 1 Physics LiDAR-Based Point Cloud Capture  
+#1 Physics LiDAR-Based Point Cloud Capture  
 
-### 2 Auto-Labeling of Simulation Data  
+# 2 Auto-Labeling of Simulation Data  
 
-### 3 Training a PointNet-Based Model  
+# 3 Training a PointNet-Based Model  
 
 ## Prposed Goals 🔍
 
-### 1 live data prediction  
+# 1 live data prediction  
 
-### 2 class handeling (curruntly only instances / 1 class)
+# 2 class handeling (curruntly only instances / 1 class)
 
 
 
