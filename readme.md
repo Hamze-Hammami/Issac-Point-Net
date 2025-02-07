@@ -46,10 +46,6 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 
 ---
 
-This repository serves as a **concept proposal** rather than an actively developed project. Contributions and research from the community are welcome.
-
-
----
 
 ## Data Format
 
@@ -194,6 +190,7 @@ Check out my other Work :D
 
 ## Contributors 👥
 
+### project author discontinued working on project, community contribution are welcome
 
 > 🌟 Want to contribute? Open a pull request and your name will be added here!
 
