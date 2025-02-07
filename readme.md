@@ -8,8 +8,12 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
 
 ## 🚧 Project Limits
 1.	While the LabelImg process is much easier, it only works on static scenes.
-2.	The labeling task takes more time when more instances are present.
-3.	No class implementation at the moment, only instances.
+
+2.	scene creation in itself is also very time consuming.
+
+3.	The labeling task takes more time when more instances are present.
+
+4.	No class implementation at the moment, only instances.
 
 ## ⚙️ Features
 
