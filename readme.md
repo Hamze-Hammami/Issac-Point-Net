@@ -56,14 +56,6 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 3- Training a PointNet-Based Model  
 
-## Prposed Goals 🔍
-
-1- live data prediction  
-
-2- class handeling (curruntly only instances / 1 class)
-
-
-
 
 ## Data Formats
 
