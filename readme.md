@@ -7,8 +7,8 @@ Isaac Point Net is an open-source project that provides a structured approach to
 ### **Scene & PCD Data (through ISSAC)**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="45%">
-    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="45%">
+    <img src="https://github.com/user-attachments/assets/807031e2-7b27-4cd2-911d-891227e507f6" alt="Scene" width="44%">
+    <img src="https://github.com/user-attachments/assets/d7def4fe-d3bb-4376-be91-b529dda42833" alt="PCD Data" width="54%">
 </div>
 
 - **📡 Capturing point cloud data** in Isaac Sim using Physics LiDAR.
@@ -28,8 +28,8 @@ Isaac Point Net is an open-source project that provides a structured approach to
 ### **Prediction vs Processed Prediction**
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="45%">
-    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="45%">
+    <img src="https://github.com/user-attachments/assets/0c2fcec1-636a-429b-a46b-1c0904eb326b" alt="Scene" width="41%">
+    <img src="https://github.com/user-attachments/assets/5e27b23d-85ea-49fb-9ae8-60dafdac42e7" alt="PCD Data" width="58%">
 </div>
 
 - **☁️ processing point cloud** processing predction to enahnce object accuracy.
