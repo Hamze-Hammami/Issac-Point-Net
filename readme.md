@@ -117,28 +117,41 @@ Source: [Hugging Face Hub Documentation](https://huggingface.co/docs/hub)
 
 ---
 
-## Training, Testing, and Visualization Scripts
+## auto-Labeling, Training, Testing, and Visualization Scripts
+
+
+### 📝 auto-Labeling PointCloud data through issac 
+This script is an experimental implementation for capturing and labeling cones in a simulated Isaac Sim environment. The script utilizes a simulated 3D LiDAR sensor to extract and label point cloud data.
+
+Running via Script Editor (Isaac Sim)
+To run the script directly within Isaac Sim, follow these steps:
+1. Open **Isaac Sim** and load your scene.
+2. Navigate to **Window → Script Editor**.
+3. open the script scripts/ISSAC_LABEL_PCD.py, Copy and paste the script into the editor and run it 
+4. Click **Run** to execute the script.
+
+currently script captures static scenes, finding a way to capture live scenes would speed up operations
+
 
 ### 🏋️ Training the PointNet Model
 The training script can be used to Train a PointNet-based model on labeled point cloud data. The current setup has been tested on a limited dataset of five PCD files.
 
 Run the training script with:
 ```bash
-python train.py
+python scripts/train.py
 ```
 
 ### 🧪 Testing the Model on a Labeled PCD File
 To evaluate the trained model and compare the predicted cuboids with the actual labeled cuboids, run:
 ```bash
-python test.py
+python scripts/test.py
 ```
 
-The script will load a labeled PCD file, pass it through the model, and visualize the predicted bounding boxes.
 
 ### 🎨 Visualizing Point Cloud Data
 An experimental script for visualizing labeled point cloud data is provided. This script supports toggling between predicted, merged, and corrected bounding boxes:
 ```bash
-python visualise_pcd.py
+python scripts/visualise_pcd.py
 ```
 
 ---
