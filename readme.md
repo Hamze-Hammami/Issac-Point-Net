@@ -1,7 +1,7 @@
 # Isaac PointNet 🚀
 
 ## Overview  
-Isaac Point Net is an open-source project that provides a structured approach to 3D pointcloud calssfication and cuboid detection, by capturing data on simulation theough an automated labeling process, with pytorch and on issac sim:
+Isaac PointNet is an open-source project that provides a structured approach to 3D pointcloud calssfication and cuboid detection, by capturing data on simulation theough an automated labeling process, with pytorch and on issac sim:
 
 ## 🔎 why on sim ?
 The approach aims to shed light on affordable prototyping. 3D LiDARs are extremely expensive, but with this approach, you can create a LiDAR object detection model without even purchasing one. 
