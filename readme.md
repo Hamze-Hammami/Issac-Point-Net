@@ -17,6 +17,7 @@ Isaac Point Net is an open-source project that provides a structured approach to
 ![Labeled Data](https://github.com/user-attachments/assets/98d2182c-5fe8-4e66-a5a0-45f4d5e87b6d)
 
 - **🤖 Training a PointNet-based model** for object detection and segmentation.
+  
 ###**model ARchicture** 
 <img width="1073" alt="Drawing5" src="https://github.com/user-attachments/assets/9bc6ae73-745c-4bcd-b6bb-d9c36fc41872" />
 - **☁️ processing point cloud** processing predction to enahnce object accuracy.
@@ -36,7 +37,7 @@ This repository serves as a **concept proposal** rather than an actively develop
 
 ## Features 🏆
 
-#1 Physics LiDAR-Based Point Cloud Capture  
+#1 Physics LiDAR-Based Point Cloud Capture ( through ISSAC ) 
 
 # 2 Auto-Labeling of Simulation Data  
 
