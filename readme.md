@@ -33,7 +33,7 @@ The approach aims to shed light on affordable prototyping. 3D LiDARs are extreme
   
 ### **Model Architecture** 
 # PointNet Model Architecture
-![Drawing5 (1)](https://github.com/user-attachments/assets/4d637eb1-7ba7-472f-a31c-5a6ab875f43d)
+![Drawing5 (1)](https://github.com/user-attachments/assets/afcf4095-6caf-4d4a-aa5f-e58f29e1d8e8)
 **🏗️ Training a Model based on a PointNet Architecture** for object detection and segmentation.
 
 ### **Prediction vs Processed Prediction**
