@@ -83,28 +83,7 @@ git clone https://huggingface.co/Hamze-Hammami/ISSAC-PointNet
 #### Option 2: Download from Hugging Face Model Hub
 [Download the Model Here](https://huggingface.co/Hamze-Hammami/ISSAC-PointNet/tree/main/models)
 
-#### Option 3: Install via Hugging Face Hub
-```bash
-pip install huggingface_hub
-```
 
-Then, download and load the model:
-```python
-from huggingface_hub import hf_hub_download
-import torch
-from train import PointNetDetector  # Ensure your PointNetDetector is defined as in this repo
-
-# Download the pretrained model from Hugging Face Hub
-model_path = hf_hub_download(repo_id="Hamze-Hammami/ISSAC-PointNet", filename="<Model_name>.pth")
-#make sure to add name of the file from hugging face 
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-
-# Initialize and load the model
-model = PointNetDetector().to(device)
-model.load_state_dict(torch.load(model_path, map_location=device))
-model.eval()
-
-```
 
 Source: [Hugging Face Hub Documentation](https://huggingface.co/docs/hub)
 
